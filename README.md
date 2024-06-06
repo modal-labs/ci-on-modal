@@ -18,6 +18,8 @@ All commands below are run from the root of the repository.
 
 ### Run tests remotely on Modal
 
+This can be executed from inside another, cheaper CI runner, e.g. on GitHub Actions.
+
 ```bash
 modal run ci_on_modal
 ```
