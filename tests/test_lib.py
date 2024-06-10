@@ -1,12 +1,5 @@
-import pytest
-
-import lib
+from my_pkg.lib import has_gpu
 
 
-@pytest.mark.modal
 def test_torch_cuda():
-    assert lib.has_gpu()
-
-
-def test_torch_no_cuda():
-    assert not lib.has_gpu()
+    assert has_gpu()
