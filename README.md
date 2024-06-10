@@ -5,7 +5,7 @@ bring your existing test suite and package (e.g. `my_pkg`), and add a Modal App 
 
 1. imports the code you want to test
 2. mounts your tests
-3. runs `pytest`, optionally with pytest marks to separate local and remote tests.
+3. runs `pytest`
 
 ## Setup
 
