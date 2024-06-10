@@ -8,6 +8,7 @@ on:
     types: [draft, opened, ready_for_review, synchronize]
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   deploy:
