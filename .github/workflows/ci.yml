@@ -1,18 +1,17 @@
-name: CI/CD
+name: CI
 
 on:
   push:
     branches:
       - main
   pull_request:
-    types: [opened, ready_for_review, synchronize]
     branches:
       - main
   workflow_dispatch:
 
 jobs:
-  deploy:
-    name: Deploy
+  test:
+    name:
     runs-on: ubuntu-latest
     env:
       MODAL_TOKEN_ID: ${{ secrets.MODAL_TOKEN_ID }}
