@@ -1,6 +1,7 @@
 # Run Continuous Integration (CI) Tests on Modal
 
-This example repo is a demonstration of one pattern for running tests on Modal:
+[This example repo](https://github.com/modal-labs/ci-on-modal)
+is a demonstration of one pattern for running tests on Modal:
 bring your existing package and test suite (here `my_pkg` and `tests`)
 and add a Modal App (`my_pkg.ci`)
 that mounts your tests
